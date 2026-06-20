@@ -36,26 +36,39 @@ This week establishes the conceptual foundation for the course. We draw a clear 
 
 ## Lab 01 – Intro to Coding Agents
 
+**File:** [`lab-01-intro-to-cursor.ipynb`](./lab-01-intro-to-cursor.ipynb)
+
 ### What You'll Do
-Get hands-on with a coding agent from scratch. By the end of lab you will have run your first agent, written your first prompt, and connected an external tool via MCP.
+Install Cursor, learn the agent interface, and build a working grade calculator using the full agentic workflow — from planning through testing to commit.
 
 ### Topics Covered
-- **Introduction to Coding Agents** — what they are, how they differ from chatbots.
-- **Planning** — how agents decompose tasks before executing them.
-- **Prompting basics** — structure, clarity, and intent in prompts.
-- **Rules** — setting behavioral boundaries for your agent.
-- **Agent Skills** — reusable, composable capabilities you define.
-- **Subagents** — delegating subtasks to specialized child agents.
-- **MCP integration** — connecting agents to external tools and data sources.
+- **Install and configure Cursor** — student Pro discount, sign in, verify setup.
+- **Meet the Cursor Agent** — four modes (Agent/Plan/Ask/Debug), tools, checkpoints, queued messages, Agents Window, Agent Review.
+- **Planning** — Grill Me → Plan Mode → incremental execution workflow.
+- **Prompting** — anatomy of a strong prompt, @ mentions, visual context, model selection.
+- **Rules** — `.mdc` format, application modes, AGENTS.md, best practices.
+- **Skills** — SKILL.md format, project vs. user scope, TDD skill exercise.
+- **Subagents** — built-in agents, when to delegate, four role-based agents (Planner, Engineer, QA, Reviewer).
+- **MCP integration** — connect Vercel, Supabase, and Figma.
 
 ### Lab Goals
-- [ ] Install and configure your coding agent environment.
-- [ ] Write and run your first structured prompt.
-- [ ] Define a simple rule and verify it is respected.
-- [ ] Invoke a skill and observe the output.
-- [ ] Connect one MCP tool and confirm it is reachable.
+- [ ] Cursor installed, signed in with `.edu` email, and Pro plan confirmed.
+- [ ] Course repo cloned and indexed in Cursor.
+- [ ] Agent chat opened and three practice prompts sent.
+- [ ] `BUGBOT.md` created with at least three review rules.
+- [ ] Planning workflow completed — Grill Me → Plan Mode → incremental execution.
+- [ ] `grade_calculator.py` created using a strong structured prompt.
+- [ ] `python-style.mdc` and `commit-format.mdc` rules created and verified.
+- [ ] `tdd` skill created in `.cursor/skills/` and verified in Cursor Settings.
+- [ ] Four role subagents created in `.cursor/agents/` (Planner, Engineer, QA, Reviewer).
+- [ ] Vercel, Supabase, and Figma MCP servers connected and reachable.
+- [ ] Work committed and pushed.
 
 ---
 
 ## Resources
 - Course outline: [`docs/course-outline.md`](../docs/course-outline.md)
+- [Cursor Docs — Agent](https://cursor.com/docs/agent)
+- [Cursor Docs — Rules](https://cursor.com/docs/rules)
+- [Cursor Docs — Skills](https://cursor.com/docs/skills)
+- [Cursor Docs — MCP](https://cursor.com/docs/mcp)
