@@ -46,34 +46,38 @@ Agent = Model + Tools + Instructions + Memory + Guardrails
 
 ---
 
-## Lab 03 – Spec-Driven Development Exercise
+## Lab 03 — Cursor Rules Sprint
+
+**File:** [`lab-03-cursor-rules.ipynb`](./lab-03-cursor-rules.ipynb)
+
+**Practice repo:** [repo-analysis-sprint](https://github.com/scottyUX/repo-analysis-sprint) (public)
+
+Four teams each write one Cursor project rule (`.mdc`) and open a pull request. Completes in **~10 minutes**.
 
 ### What You'll Do
-Take a real user story through the full spec-driven workflow — from fuzzy requirement to committed, tested code.
+- Read a self-contained rules intro (basic–medium concepts from the [Cursor Rules docs](https://cursor.com/docs/rules))
+- Clone [repo-analysis-sprint](https://github.com/scottyUX/repo-analysis-sprint)
+- Write one rule matching your team's assigned type (Always Apply, Specific Files, Apply Intelligently, or rule with examples)
+- Verify the rule in **Cursor Settings → Rules**
+- Open a PR to `scottyUX/repo-analysis-sprint`
 
-### Steps
-1. **Write a technical specification** from a provided user story.
-2. **Define functional requirements**, edge cases, and acceptance criteria.
-3. **Feed the spec to a coding agent** and review its implementation plan.
-4. **Write tests first** — outcome-based tests before any feature code **(TDD)**.
-5. **Run the agent** and let it implement against your tests.
-6. **Review, verify, and commit.**
-
-### Testing Frameworks (via MCP)
-| Framework | Language / Use case |
-|---|---|
-| **Vitest** | JavaScript / TypeScript unit tests |
-| **Pytest** | Python unit and integration tests |
-| **Playwright** | End-to-end and browser-based tests |
+### Team assignments
+| Team | Rule type | Issue |
+|---|---|---|
+| 1 | Always Apply | [#20](https://github.com/scottyUX/repo-analysis-sprint/issues/20) |
+| 2 | Apply to Specific Files | [#21](https://github.com/scottyUX/repo-analysis-sprint/issues/21) |
+| 3 | Apply Intelligently | [#22](https://github.com/scottyUX/repo-analysis-sprint/issues/22) |
+| 4 | Rule with examples | [#23](https://github.com/scottyUX/repo-analysis-sprint/issues/23) |
 
 ### Lab Goals
-- [ ] Produce a written technical spec from a user story.
-- [ ] Define at least three acceptance criteria.
-- [ ] Write failing tests before running the agent.
-- [ ] Verify all tests pass after agent implementation.
-- [ ] Commit with a meaningful message.
+- [ ] Cloned repo-analysis-sprint and opened in Cursor
+- [ ] Created assigned `team-N-*.mdc` in `.cursor/rules/`
+- [ ] Rule visible in Cursor Settings → Rules
+- [ ] PR opened to scottyUX/repo-analysis-sprint
 
 ---
 
 ## Resources
 - Course outline: [`docs/course-outline.md`](../docs/course-outline.md)
+- [Cursor Rules docs](https://cursor.com/docs/rules)
+- [repo-analysis-sprint](https://github.com/scottyUX/repo-analysis-sprint)

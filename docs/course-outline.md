@@ -67,14 +67,12 @@
 - AI agent architecture: model + tools + instructions + memory + guardrails.
 - Orchestration patterns: sequential, parallel, ReAct, coordinator, hierarchical.
 
-### Lab 03 – Spec-Driven Development Exercise
+### Lab 03 – Cursor Rules Sprint
 
-- Take a user story and write a technical specification.
-- Define functional requirements, edge cases, and acceptance criteria.
-- Feed the spec to coding agents and review the agent's implementation plan.
-- Write outcome-based tests **before** any feature code **(TDD basics)**.
-- Testing framework MCPs: **Vitest (JS/TS)**, **Pytest (Python)**, **Playwright (E2E/browser)**.
-- Review, verify, and commit.
+- Self-contained rules intro (basic–medium concepts from [Cursor Rules docs](https://cursor.com/docs/rules)).
+- Four teams write one project rule (`.mdc`) each in [repo-analysis-sprint](https://github.com/scottyUX/repo-analysis-sprint).
+- Rule types: Always Apply, Apply to Specific Files, Apply Intelligently, rule with good/bad examples.
+- Verify rules in Cursor Settings; open a PR (~10 minutes).
 
 ---
 
