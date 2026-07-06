@@ -77,7 +77,32 @@ Four teams each write one Cursor project rule (`.mdc`) and open a pull request. 
 
 ---
 
+## Lab 03 — Spec-Driven Development
+
+**File:** [`lab-03-spec-driven-development.ipynb`](./lab-03-spec-driven-development.ipynb)
+
+**Practice repo:** [repo-analysis-sprint](https://github.com/scottyUX/repo-analysis-sprint) (public)
+
+Optional **30–45 minute** extension after the rules sprint. Use [GitHub Spec Kit](https://github.com/github/spec-kit) to run a lean specify → plan → tasks → implement workflow with the Cursor `cursor-agent` integration.
+
+### What You'll Do
+- Install Spec Kit CLI and initialize `repo-analysis-sprint` with `--integration cursor-agent`
+- Run `/speckit.constitution`, `/speckit.specify`, `/speckit.plan`, `/speckit.tasks`, `/speckit.implement`
+- Build a **risk level badge** feature from a provided user story
+- Verify with `npm run lint` and `npm test`
+- Open a PR linking to `specs/<feature>/` artifacts
+
+### Lab Goals
+- [ ] Installed `specify-cli` and ran `specify init` with `cursor-agent`
+- [ ] Ran `/speckit.specify` on the risk badge user story
+- [ ] Ran `/speckit.plan` and `/speckit.tasks`
+- [ ] Ran `/speckit.implement`; lint and tests pass
+- [ ] Opened PR referencing `specs/...` artifacts
+
+---
+
 ## Resources
 - Course outline: [`docs/course-outline.md`](../docs/course-outline.md)
 - [Cursor Rules docs](https://cursor.com/docs/rules)
+- [GitHub Spec Kit](https://github.com/github/spec-kit)
 - [repo-analysis-sprint](https://github.com/scottyUX/repo-analysis-sprint)

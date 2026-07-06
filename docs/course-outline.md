@@ -67,12 +67,16 @@
 - AI agent architecture: model + tools + instructions + memory + guardrails.
 - Orchestration patterns: sequential, parallel, ReAct, coordinator, hierarchical.
 
-### Lab 03 – Cursor Rules Sprint
+### Lab 03 – Cursor Rules Sprint and Spec-Driven Development
 
-- Self-contained rules intro (basic–medium concepts from [Cursor Rules docs](https://cursor.com/docs/rules)).
-- Four teams write one project rule (`.mdc`) each in [repo-analysis-sprint](https://github.com/scottyUX/repo-analysis-sprint).
-- Rule types: Always Apply, Apply to Specific Files, Apply Intelligently, rule with good/bad examples.
-- Verify rules in Cursor Settings; open a PR (~10 minutes).
+**Lab 03a — Cursor Rules** ([`week-3/lab-03-cursor-rules.ipynb`](week-3/lab-03-cursor-rules.ipynb))
+- Four teams write one project rule (`.mdc`) in [repo-analysis-sprint](https://github.com/scottyUX/repo-analysis-sprint) and open a PR (~10 minutes).
+- Rule types: Always Apply, Apply to Specific Files, Apply Intelligently, rule with examples.
+
+**Lab 03b — Spec-Driven Development** ([`week-3/lab-03-spec-driven-development.ipynb`](week-3/lab-03-spec-driven-development.ipynb))
+- [GitHub Spec Kit](https://github.com/github/spec-kit) lean workflow on repo-analysis-sprint with Cursor `cursor-agent` integration (~30–45 minutes).
+- Commands: `/speckit.constitution` → `/speckit.specify` → `/speckit.plan` → `/speckit.tasks` → `/speckit.implement`.
+- Deliverable: risk level badge feature with spec artifacts in `specs/` and a PR.
 
 ---
 
