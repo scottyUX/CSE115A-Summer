@@ -46,6 +46,23 @@ Agent = Model + Tools + Instructions + Memory + Guardrails
 
 ---
 
+## Lab 03 – Cursor Guardrails
+
+### What You'll Do
+Configure a project-level guardrail in Cursor and verify it blocks an action that a rule alone cannot enforce.
+
+### Colab
+- [`lab-03-guardrails.ipynb`](./lab-03-guardrails.ipynb) — [Open in Colab](https://colab.research.google.com/github/scottyUX/CSE115A-Summer/blob/main/week-3/lab-03-guardrails.ipynb)
+
+### Lab Goals
+- [ ] Explain why guardrails differ from rules.
+- [ ] Name the three guardrail types and map each to a Cursor mechanism.
+- [ ] Create a `beforeShellExecution` hook that blocks destructive shell commands.
+- [ ] Verify the guardrail fires when you test a blocked command.
+- [ ] Commit the hook files to git.
+
+---
+
 ## Lab 03 — Cursor Rules Sprint
 
 **File:** [`lab-03-cursor-rules.ipynb`](./lab-03-cursor-rules.ipynb)
