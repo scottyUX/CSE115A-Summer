@@ -69,26 +69,26 @@ Configure a project-level guardrail in Cursor and verify it blocks an action tha
 
 **Practice repo:** [repo-analysis-sprint](https://github.com/scottyUX/repo-analysis-sprint) (public)
 
-Four teams each write one Cursor project rule (`.mdc`) and open a pull request. Completes in **~10 minutes**.
+Individual exercise: write one Cursor project rule (`.mdc`) and open a pull request. Completes in **~10 minutes**.
 
 ### What You'll Do
 - Read a self-contained rules intro (basic–medium concepts from the [Cursor Rules docs](https://cursor.com/docs/rules))
 - Clone [repo-analysis-sprint](https://github.com/scottyUX/repo-analysis-sprint)
-- Write one rule matching your team's assigned type (Always Apply, Specific Files, Apply Intelligently, or rule with examples)
+- Choose one rule type to practice (Always Apply, Specific Files, Apply Intelligently, or rule with examples)
 - Verify the rule in **Cursor Settings → Rules**
 - Open a PR to `scottyUX/repo-analysis-sprint`
 
-### Team assignments
-| Team | Rule type | Issue |
+### Rule type options
+| Option | Rule type | Reference issue |
 |---|---|---|
-| 1 | Always Apply | [#20](https://github.com/scottyUX/repo-analysis-sprint/issues/20) |
-| 2 | Apply to Specific Files | [#21](https://github.com/scottyUX/repo-analysis-sprint/issues/21) |
-| 3 | Apply Intelligently | [#22](https://github.com/scottyUX/repo-analysis-sprint/issues/22) |
-| 4 | Rule with examples | [#23](https://github.com/scottyUX/repo-analysis-sprint/issues/23) |
+| A | Always Apply | [#20](https://github.com/scottyUX/repo-analysis-sprint/issues/20) |
+| B | Apply to Specific Files | [#21](https://github.com/scottyUX/repo-analysis-sprint/issues/21) |
+| C | Apply Intelligently | [#22](https://github.com/scottyUX/repo-analysis-sprint/issues/22) |
+| D | Rule with examples | [#23](https://github.com/scottyUX/repo-analysis-sprint/issues/23) |
 
 ### Lab Goals
 - [ ] Cloned repo-analysis-sprint and opened in Cursor
-- [ ] Created assigned `team-N-*.mdc` in `.cursor/rules/`
+- [ ] Created your `.mdc` rule in `.cursor/rules/`
 - [ ] Rule visible in Cursor Settings → Rules
 - [ ] PR opened to scottyUX/repo-analysis-sprint
 

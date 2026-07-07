@@ -76,7 +76,7 @@
 - Colab: [`week-3/lab-03-guardrails.ipynb`](../week-3/lab-03-guardrails.ipynb)
 
 **Lab 03a — Cursor Rules** ([`week-3/lab-03-cursor-rules.ipynb`](week-3/lab-03-cursor-rules.ipynb))
-- Four teams write one project rule (`.mdc`) in [repo-analysis-sprint](https://github.com/scottyUX/repo-analysis-sprint) and open a PR (~10 minutes).
+- Individual exercise: write one project rule (`.mdc`) in [repo-analysis-sprint](https://github.com/scottyUX/repo-analysis-sprint) and open a PR (~10 minutes).
 - Rule types: Always Apply, Apply to Specific Files, Apply Intelligently, rule with examples.
 
 **Lab 03b — Spec-Driven Development** ([`week-3/lab-03-spec-driven-development.ipynb`](week-3/lab-03-spec-driven-development.ipynb))
